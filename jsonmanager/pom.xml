@@ -1,17 +1,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>it.seat.fe.components</groupId>
+    <groupId>it.matefun.fe.components</groupId>
     <artifactId>vertx-jsonmanager</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>vertx-jsonmanager</name>
     <url>http://maven.apache.org</url>
     <parent> 
-        <groupId>it.seat.fe</groupId>
+        <groupId>it.matefun.fe</groupId>
         <artifactId>parent</artifactId>
-        <version>1.5</version>
+        <version>1.0.0</version>
     </parent>    
     <build>
         <plugins>
@@ -53,12 +53,5 @@
             <version>2.2.2</version>
         </dependency>              
     </dependencies>
-     <scm>
-     <!-- Base URL of repository (trunk/tags/branches independant) -->
-        <url>scm:svn:http://svn.mi.seat.it/frontend</url>
-        <!-- Current working url (NOT TAG ONE) -->
-        <connection>scm:svn:http://svn.mi.seat.it/frontend/it.seat.fe.components.vertx.jsonmanager/trunk</connection>
-        <!-- Current working url -->
-        <developerConnection>scm:svn:http://svn.mi.seat.it/frontend/it.seat.fe.components.vertx.jsonmanager/trunk</developerConnection>
-    </scm>    
+    
 </project>
